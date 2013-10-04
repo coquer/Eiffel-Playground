@@ -1,0 +1,177 @@
+class GENERATED_TEST_CASE
+
+inherit
+
+	AUT_TEST_CASE
+
+feature
+
+	test
+		local
+			-- TODO: add variable declarations for not failing and not minimized TCs.
+		do
+			v_1 := Void
+			execute_safe (agent: APPLICATION
+				do
+					create {APPLICATION} Result.make
+				end)
+			check attached {APPLICATION} last_object as l_ot1 then
+				v_2 := l_ot1
+			end
+			execute_safe (agent (a_arg1: NONE): attached IMMUTABLE_STRING_32
+				do
+					create {attached IMMUTABLE_STRING_32} Result.make_from_string_general (a_arg1)
+				end (Void))
+			check attached {attached IMMUTABLE_STRING_32} last_object as l_ot2 then
+				v_3 := l_ot2
+			end
+			execute_safe (agent: APPLICATION
+				do
+					create {APPLICATION} Result.make
+				end)
+			check attached {APPLICATION} last_object as l_ot3 then
+				v_4 := l_ot3
+			end
+			execute_safe (agent v_4.home_directory_path)
+			v_5 := last_object
+			v_6 := {CHARACTER_32} '%%'
+			v_7 := {INTEGER_32} -2
+			execute_safe (agent (a_arg1: NONE; a_arg2: NONE): attached IMMUTABLE_STRING_32
+				do
+					create {attached IMMUTABLE_STRING_32} Result.make_filled (a_arg1, a_arg2)
+				end (Void, Void))
+			check attached {attached IMMUTABLE_STRING_32} last_object as l_ot4 then
+				v_8 := l_ot4
+			end
+			execute_safe (agent: APPLICATION
+				do
+					create {APPLICATION} Result.make
+				end)
+			check attached {APPLICATION} last_object as l_ot5 then
+				v_9 := l_ot5
+			end
+			execute_safe (agent v_9.current_working_path)
+			v_10 := last_object
+			execute_safe (agent: APPLICATION
+				do
+					create {APPLICATION} Result.make
+				end)
+			check attached {APPLICATION} last_object as l_ot6 then
+				v_11 := l_ot6
+			end
+			v_12 := {INTEGER_64} 9
+			execute_safe (agent v_11.sleep (Void))
+			execute_safe (agent v_2.arguments)
+			v_13 := last_object
+			execute_safe (agent: APPLICATION
+				do
+					create {APPLICATION} Result.make
+				end)
+			check attached {APPLICATION} last_object as l_ot7 then
+				v_14 := l_ot7
+			end
+			execute_safe (agent v_14.default_shell)
+			v_15 := last_object
+			execute_safe (agent v_11.item (Void))
+			v_16 := last_object
+			execute_safe (agent v_14.default_shell)
+			v_17 := last_object
+			v_18 := default_pointer
+
+				-- Final routine call
+			set_is_recovery_enabled (False)
+			execute_safe (agent (a_arg1: NONE): attached IMMUTABLE_STRING_32
+				do
+					create {attached IMMUTABLE_STRING_32} Result.make_from_c (a_arg1)
+				end (Void))
+			check attached {attached IMMUTABLE_STRING_32} last_object as l_ot8 then
+				v_19 := l_ot8
+			end
+		end
+
+	-- > ---multi-line-value-start---
+	-- > ---multi-line-value-end---
+	-- > status: exception
+	-- > 12
+	-- > c_strlen
+	-- > C_STRING
+	-- > Segmentation violation
+	-- > False
+	-- > ---multi-line-value-start---
+	-- > -------------------------------------------------------------------------------
+	-- > Class / Object      Routine                Nature of exception           Effect
+	-- > -------------------------------------------------------------------------------
+	-- > C_STRING            c_strlen               Segmentation violation:      
+	-- > <00000031A66F2718>                         Operating system signal.      Fail
+	-- > -------------------------------------------------------------------------------
+	-- > C_STRING            c_strlen                                            
+	-- > <00000031A66F2718>                         Routine failure.              Fail
+	-- > -------------------------------------------------------------------------------
+	-- > C_STRING            set_shared_from_pointer @2
+	-- > <00000031A66F2718>                         Routine failure.              Fail
+	-- > -------------------------------------------------------------------------------
+	-- > IMMUTABLE_STRING_32 make_from_c @2                                      
+	-- > <00000031A68501C8>  (From READABLE_STRING_32)
+	-- >                                            Routine failure.              Fail
+	-- > -------------------------------------------------------------------------------
+	-- > ITP_INTERPRETER     execute_byte_code @3                                
+	-- > <00000031A66F1588>                         Routine failure.              Fail
+	-- > -------------------------------------------------------------------------------
+	-- > ---multi-line-value-end---
+	-- > done:
+class GENERATED_TEST_CASE
+
+inherit
+
+	AUT_TEST_CASE
+
+feature
+
+	test
+		local
+			v_18: POINTER
+			v_19: attached IMMUTABLE_STRING_32
+		do
+			v_18 := default_pointer
+
+				-- Final routine call
+			set_is_recovery_enabled (False)
+			execute_safe (agent (a_arg1: POINTER): attached IMMUTABLE_STRING_32
+				do
+					create {attached IMMUTABLE_STRING_32} Result.make_from_c (a_arg1)
+				end (v_18))
+			check attached {attached IMMUTABLE_STRING_32} last_object as l_ot1 then
+				v_19 := l_ot1
+			end
+		end
+
+	-- > ---multi-line-value-start---
+	-- > ---multi-line-value-end---
+	-- > status: exception
+	-- > 12
+	-- > c_strlen
+	-- > C_STRING
+	-- > Segmentation violation
+	-- > False
+	-- > ---multi-line-value-start---
+	-- > -------------------------------------------------------------------------------
+	-- > Class / Object      Routine                Nature of exception           Effect
+	-- > -------------------------------------------------------------------------------
+	-- > C_STRING            c_strlen               Segmentation violation:      
+	-- > <0000002F4BCF7718>                         Operating system signal.      Fail
+	-- > -------------------------------------------------------------------------------
+	-- > C_STRING            c_strlen                                            
+	-- > <0000002F4BCF7718>                         Routine failure.              Fail
+	-- > -------------------------------------------------------------------------------
+	-- > C_STRING            set_shared_from_pointer @2
+	-- > <0000002F4BCF7718>                         Routine failure.              Fail
+	-- > -------------------------------------------------------------------------------
+	-- > IMMUTABLE_STRING_32 make_from_c @2                                      
+	-- > <0000002F4BCF9638>  (From READABLE_STRING_32)
+	-- >                                            Routine failure.              Fail
+	-- > -------------------------------------------------------------------------------
+	-- > ITP_INTERPRETER     execute_byte_code @3                                
+	-- > <0000002F4BCF6588>                         Routine failure.              Fail
+	-- > -------------------------------------------------------------------------------
+	-- > ---multi-line-value-end---
+	-- > done:

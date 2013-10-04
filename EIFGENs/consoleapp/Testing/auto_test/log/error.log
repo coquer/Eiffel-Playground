@@ -1,0 +1,54 @@
+Executing automatically generated tests
+500: create APPLICATION.make (passed)
+499: create attached IMMUTABLE_STRING_32.make_from_string_general (failed)
+Minimizing a bug reproducing example (to disable use '--disable-minimize').
+Created new test class NEW_TEST_SET_001
+498: create APPLICATION.make (passed)
+497: APPLICATION.home_directory_path (passed)
+496: create attached IMMUTABLE_STRING_32.make_filled (failed)
+Minimizing a bug reproducing example (to disable use '--disable-minimize').
+Created new test class NEW_TEST_SET_002
+495: create APPLICATION.make (passed)
+494: APPLICATION.current_working_path (passed)
+493: create APPLICATION.make (passed)
+492: APPLICATION.sleep (passed)
+491: APPLICATION.arguments (passed)
+490: create APPLICATION.make (passed)
+489: APPLICATION.default_shell (passed)
+488: APPLICATION.item (invalid test)
+487: APPLICATION.default_shell (passed)
+486: create attached IMMUTABLE_STRING_32.make_from_c (failed)
+Minimizing a bug reproducing example (to disable use '--disable-minimize').
+Created new test class NEW_TEST_SET_003
+485: create APPLICATION.make (passed)
+484: APPLICATION.starting_environment (passed)
+483: create APPLICATION.make (passed)
+482: APPLICATION.launch (passed)
+481: create APPLICATION.make (passed)
+480: APPLICATION.txt_input_file (passed)
+479: APPLICATION.put (invalid test)
+478: APPLICATION.item (passed)
+477: APPLICATION.txt_input_file (passed)
+476: APPLICATION.system (invalid test)
+475: APPLICATION.user_directory_path (passed)
+474: create APPLICATION.make (passed)
+473: APPLICATION.arguments (passed)
+472: APPLICATION.change_working_path (passed)
+471: APPLICATION.system (invalid test)
+470: APPLICATION.user_directory_path (passed)
+469: APPLICATION.user_directory_path (passed)
+468: create attached IMMUTABLE_STRING_32.make_filled (passed)
+467: APPLICATION.system (passed)
+466: APPLICATION.arguments (passed)
+465: APPLICATION.starting_environment (passed)
+464: APPLICATION.arguments (passed)
+463: APPLICATION.home_directory_path (passed)
+462: APPLICATION.system (passed)
+461: APPLICATION.txt_input_file (passed)
+460: APPLICATION.current_working_path (passed)
+459: APPLICATION.current_working_path (passed)
+458: create APPLICATION.make (failed)
+Minimizing a bug reproducing example (to disable use '--disable-minimize').
+Created new test class NEW_TEST_SET_004
+457: APPLICATION.change_working_path (failed)
+Minimizing a bug reproducing example (to disable use '--disable-minimize').

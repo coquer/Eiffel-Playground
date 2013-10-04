@@ -1,0 +1,8 @@
+-STACK:5000000 -NODEFAULTLIB:libc -STACK:5000000 -NODEFAULTLIB:libc -SUBSYSTEM:CONSOLE -OUT:consoleapp.exe 
+e1\emain.obj 
+"C:\Program Files\Eiffel Software\EiffelStudio 7.3 GPL\studio\spec\win64\lib\msc\wkbench.lib" "C:\Program Files\Eiffel Software\EiffelStudio 7.3 GPL\library\net\spec\msc\win64\lib\net.lib" "C:\Program Files\Eiffel Software\EiffelStudio 7.3 GPL\library\wel\spec\msc\win64\lib\wel.lib" 
+USER32.lib WS2_32.lib ADVAPI32.lib GDI32.lib SHELL32.lib MSIMG32.lib COMDLG32.lib UUID.lib OLE32.lib OLEAUT32.lib COMCTL32.lib MPR.LIB SHLWAPI.LIB WINSPOOL.LIB "c:\users\jorge\documents\eiffel user files\7.3\precomp\spec\win64\EIFGENs\base-safe\W_code\msc\precomp.lib" 
+consoleapp.res 
+E1\eparents.obj E1\einit.obj E1\ececil.obj E1\evisib.obj E1\enames.obj 
+E1\eskelet.obj E1\eplug.obj E1\ecall.obj E1\efrozen.obj E1\epattern.obj 
+E1\eoption.obj C4\Cobj4.lib C3\Cobj3.lib C2\Cobj2.lib C1\Cobj1.lib 

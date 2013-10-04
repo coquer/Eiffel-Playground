@@ -1,0 +1,106 @@
+class GENERATED_TEST_CASE
+
+inherit
+
+	AUT_TEST_CASE
+
+feature
+
+	test
+		local
+			-- TODO: add variable declarations for not failing and not minimized TCs.
+		do
+			v_1 := Void
+			execute_safe (agent: APPLICATION
+				do
+					create {APPLICATION} Result.make
+				end)
+			check attached {APPLICATION} last_object as l_ot1 then
+				v_2 := l_ot1
+			end
+
+				-- Final routine call
+			set_is_recovery_enabled (False)
+			execute_safe (agent (a_arg1: NONE): attached IMMUTABLE_STRING_32
+				do
+					create {attached IMMUTABLE_STRING_32} Result.make_from_string_general (a_arg1)
+				end (Void))
+			check attached {attached IMMUTABLE_STRING_32} last_object as l_ot2 then
+				v_3 := l_ot2
+			end
+		end
+
+	-- > ---multi-line-value-start---
+	-- > ---multi-line-value-end---
+	-- > status: exception
+	-- > 1
+	-- > make_from_string_general
+	-- > IMMUTABLE_STRING_32
+	-- > to_string_32
+	-- > False
+	-- > ---multi-line-value-start---
+	-- > -------------------------------------------------------------------------------
+	-- > Class / Object      Routine                Nature of exception           Effect
+	-- > -------------------------------------------------------------------------------
+	-- > IMMUTABLE_STRING_32 make_from_string_general @6
+	-- >                                            to_string_32:
+	-- > <00000031A6737388>                         Feature call on void target.  Fail
+	-- > -------------------------------------------------------------------------------
+	-- > IMMUTABLE_STRING_32 make_from_string_general @6
+	-- > <00000031A6737388>                         Routine failure.              Fail
+	-- > -------------------------------------------------------------------------------
+	-- > ITP_INTERPRETER     execute_byte_code @3                                
+	-- > <00000031A66F1588>                         Routine failure.              Fail
+	-- > -------------------------------------------------------------------------------
+	-- > ---multi-line-value-end---
+	-- > done:
+class GENERATED_TEST_CASE
+
+inherit
+
+	AUT_TEST_CASE
+
+feature
+
+	test
+		local
+			v_1: detachable ANY
+			v_3: attached IMMUTABLE_STRING_32
+		do
+			v_1 := Void
+
+				-- Final routine call
+			set_is_recovery_enabled (False)
+			execute_safe (agent (a_arg1: NONE): attached IMMUTABLE_STRING_32
+				do
+					create {attached IMMUTABLE_STRING_32} Result.make_from_string_general (a_arg1)
+				end (Void))
+			check attached {attached IMMUTABLE_STRING_32} last_object as l_ot1 then
+				v_3 := l_ot1
+			end
+		end
+
+	-- > ---multi-line-value-start---
+	-- > ---multi-line-value-end---
+	-- > status: exception
+	-- > 1
+	-- > make_from_string_general
+	-- > IMMUTABLE_STRING_32
+	-- > to_string_32
+	-- > False
+	-- > ---multi-line-value-start---
+	-- > -------------------------------------------------------------------------------
+	-- > Class / Object      Routine                Nature of exception           Effect
+	-- > -------------------------------------------------------------------------------
+	-- > IMMUTABLE_STRING_32 make_from_string_general @6
+	-- >                                            to_string_32:
+	-- > <0000001BEAFDE398>                         Feature call on void target.  Fail
+	-- > -------------------------------------------------------------------------------
+	-- > IMMUTABLE_STRING_32 make_from_string_general @6
+	-- > <0000001BEAFDE398>                         Routine failure.              Fail
+	-- > -------------------------------------------------------------------------------
+	-- > ITP_INTERPRETER     execute_byte_code @3                                
+	-- > <0000001BEAFDB588>                         Routine failure.              Fail
+	-- > -------------------------------------------------------------------------------
+	-- > ---multi-line-value-end---
+	-- > done:

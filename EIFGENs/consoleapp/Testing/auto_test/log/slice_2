@@ -1,0 +1,136 @@
+class GENERATED_TEST_CASE
+
+inherit
+
+	AUT_TEST_CASE
+
+feature
+
+	test
+		local
+			-- TODO: add variable declarations for not failing and not minimized TCs.
+		do
+			v_1 := Void
+			execute_safe (agent: APPLICATION
+				do
+					create {APPLICATION} Result.make
+				end)
+			check attached {APPLICATION} last_object as l_ot1 then
+				v_2 := l_ot1
+			end
+			execute_safe (agent (a_arg1: NONE): attached IMMUTABLE_STRING_32
+				do
+					create {attached IMMUTABLE_STRING_32} Result.make_from_string_general (a_arg1)
+				end (Void))
+			check attached {attached IMMUTABLE_STRING_32} last_object as l_ot2 then
+				v_3 := l_ot2
+			end
+			execute_safe (agent: APPLICATION
+				do
+					create {APPLICATION} Result.make
+				end)
+			check attached {APPLICATION} last_object as l_ot3 then
+				v_4 := l_ot3
+			end
+			execute_safe (agent v_4.home_directory_path)
+			v_5 := last_object
+			v_6 := {CHARACTER_32} '%%'
+			v_7 := {INTEGER_32} -2
+
+				-- Final routine call
+			set_is_recovery_enabled (False)
+			execute_safe (agent (a_arg1: NONE; a_arg2: NONE): attached IMMUTABLE_STRING_32
+				do
+					create {attached IMMUTABLE_STRING_32} Result.make_filled (a_arg1, a_arg2)
+				end (Void, Void))
+			check attached {attached IMMUTABLE_STRING_32} last_object as l_ot4 then
+				v_8 := l_ot4
+			end
+		end
+
+	-- > ---multi-line-value-start---
+	-- > ---multi-line-value-end---
+	-- > status: exception
+	-- > 7
+	-- > make
+	-- > READABLE_STRING_32
+	-- > non_negative_argument
+	-- > False
+	-- > ---multi-line-value-start---
+	-- > -------------------------------------------------------------------------------
+	-- > Class / Object      Routine                Nature of exception           Effect
+	-- > -------------------------------------------------------------------------------
+	-- > IMMUTABLE_STRING_32 make @4                non_negative_argument:       
+	-- > <00000031A677E848>  (From READABLE_STRING_32)
+	-- >                                            Runtime check violated.       Fail
+	-- > -------------------------------------------------------------------------------
+	-- > IMMUTABLE_STRING_32 make @4                                             
+	-- > <00000031A677E848>  (From READABLE_STRING_32)
+	-- >                                            Routine failure.              Fail
+	-- > -------------------------------------------------------------------------------
+	-- > IMMUTABLE_STRING_32 make_filled @2                                      
+	-- > <00000031A677E848>  (From READABLE_STRING_32)
+	-- >                                            Routine failure.              Fail
+	-- > -------------------------------------------------------------------------------
+	-- > ITP_INTERPRETER     execute_byte_code @5                                
+	-- > <00000031A66F1588>                         Routine failure.              Fail
+	-- > -------------------------------------------------------------------------------
+	-- > ---multi-line-value-end---
+	-- > done:
+class GENERATED_TEST_CASE
+
+inherit
+
+	AUT_TEST_CASE
+
+feature
+
+	test
+		local
+			v_6: CHARACTER_32
+			v_7: INTEGER_32
+			v_8: attached IMMUTABLE_STRING_32
+		do
+			v_6 := {CHARACTER_32} '%%'
+			v_7 := {INTEGER_32} -2
+
+				-- Final routine call
+			set_is_recovery_enabled (False)
+			execute_safe (agent (a_arg1: CHARACTER_32; a_arg2: INTEGER_32): attached IMMUTABLE_STRING_32
+				do
+					create {attached IMMUTABLE_STRING_32} Result.make_filled (a_arg1, a_arg2)
+				end (v_6, v_7))
+			check attached {attached IMMUTABLE_STRING_32} last_object as l_ot1 then
+				v_8 := l_ot1
+			end
+		end
+
+	-- > ---multi-line-value-start---
+	-- > ---multi-line-value-end---
+	-- > status: exception
+	-- > 7
+	-- > make
+	-- > READABLE_STRING_32
+	-- > non_negative_argument
+	-- > False
+	-- > ---multi-line-value-start---
+	-- > -------------------------------------------------------------------------------
+	-- > Class / Object      Routine                Nature of exception           Effect
+	-- > -------------------------------------------------------------------------------
+	-- > IMMUTABLE_STRING_32 make @4                non_negative_argument:       
+	-- > <0000006CB4B38548>  (From READABLE_STRING_32)
+	-- >                                            Runtime check violated.       Fail
+	-- > -------------------------------------------------------------------------------
+	-- > IMMUTABLE_STRING_32 make @4                                             
+	-- > <0000006CB4B38548>  (From READABLE_STRING_32)
+	-- >                                            Routine failure.              Fail
+	-- > -------------------------------------------------------------------------------
+	-- > IMMUTABLE_STRING_32 make_filled @2                                      
+	-- > <0000006CB4B38548>  (From READABLE_STRING_32)
+	-- >                                            Routine failure.              Fail
+	-- > -------------------------------------------------------------------------------
+	-- > ITP_INTERPRETER     execute_byte_code @5                                
+	-- > <0000006CB4B34588>                         Routine failure.              Fail
+	-- > -------------------------------------------------------------------------------
+	-- > ---multi-line-value-end---
+	-- > done:

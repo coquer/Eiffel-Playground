@@ -1,0 +1,8 @@
+Catcall detected in {IMMUTABLE_STRING_32}.make_from_string_general for arg#1: expected READABLE_STRING_GENERAL but got Void
+Catcall detected in {IMMUTABLE_STRING_32}.make_from_string_general for arg#1: expected READABLE_STRING_GENERAL but got Void
+Catcall detected in {EXECUTION_ENVIRONMENT}.item for arg#1: expected READABLE_STRING_GENERAL but got Void
+Catcall detected in {EXECUTION_ENVIRONMENT}.put for arg#1: expected READABLE_STRING_GENERAL but got Void
+Catcall detected in {EXECUTION_ENVIRONMENT}.put for arg#2: expected READABLE_STRING_GENERAL but got Void
+Catcall detected in {EXECUTION_ENVIRONMENT}.system for arg#1: expected READABLE_STRING_GENERAL but got Void
+Catcall detected in {EXECUTION_ENVIRONMENT}.system for arg#1: expected READABLE_STRING_GENERAL but got Void
+Catcall detected in {EXECUTION_ENVIRONMENT}.change_working_path for arg#1: expected PATH but got Void

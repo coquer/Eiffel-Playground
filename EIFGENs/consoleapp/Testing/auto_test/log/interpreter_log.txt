@@ -1,0 +1,871 @@
+<session>
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+<call_result type='exception'>
+	<meaning value='Feature call on void target.'/>
+	<tag value='to_string_32'/>
+	<recipient value='make_from_string_general'/>
+	<class value='IMMUTABLE_STRING_32'>
+	<invariant violation on entry='False'>
+	<exception_trace>
+<![CDATA[
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+IMMUTABLE_STRING_32 make_from_string_general @6
+                                           to_string_32:
+<0000001BEAFDE398>                         Feature call on void target.  Fail
+-------------------------------------------------------------------------------
+IMMUTABLE_STRING_32 make_from_string_general @6
+<0000001BEAFDE398>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_byte_code @3                                
+<0000001BEAFDB588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_protected @3                                
+<0000001BEAFDB588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     report_execute_request @12
+<0000001BEAFDB588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     parse @6                                            
+<0000001BEAFDB588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     main_loop @5                                        
+<0000001BEAFDB588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     start @8                                            
+<0000001BEAFDB588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute @16                                         
+<0000001BEAFDB588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     root's creation                                     
+<0000001BEAFDB588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+]]>
+</exception_trace>
+</call_result>
+report_execute_request end
+</session>
+<session>
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_execute_request start
+<call_result type='exception'>
+	<meaning value='Feature call on void target.'/>
+	<tag value='to_string_32'/>
+	<recipient value='make_from_string_general'/>
+	<class value='IMMUTABLE_STRING_32'>
+	<invariant violation on entry='False'>
+	<exception_trace>
+<![CDATA[
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+IMMUTABLE_STRING_32 make_from_string_general @6
+                                           to_string_32:
+<00000031A6737388>                         Feature call on void target.  Fail
+-------------------------------------------------------------------------------
+IMMUTABLE_STRING_32 make_from_string_general @6
+<00000031A6737388>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_byte_code @3                                
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_protected @3                                
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     report_execute_request @12
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     parse @6                                            
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     main_loop @5                                        
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     start @8                                            
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute @16                                         
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     root's creation                                     
+<00000031A66F1588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+]]>
+</exception_trace>
+</call_result>
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+<call_result type='exception'>
+	<meaning value='Check assertion violated.'/>
+	<tag value='non_negative_argument'/>
+	<recipient value='make'/>
+	<class value='READABLE_STRING_32'>
+	<invariant violation on entry='False'>
+	<exception_trace>
+<![CDATA[
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+IMMUTABLE_STRING_32 make @4                non_negative_argument:       
+<00000031A677E848>  (From READABLE_STRING_32)
+                            <session>
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+<call_result type='exception'>
+	<meaning value='Check assertion violated.'/>
+	<tag value='non_negative_argument'/>
+	<recipient value='make'/>
+	<class value='READABLE_STRING_32'>
+	<invariant violation on entry='False'>
+	<exception_trace>
+<![CDATA[
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+IMMUTABLE_STRING_32 make @4                non_negative_argument:       
+<0000006CB4B38548>  (From READABLE_STRING_32)
+                                           Runtime check violated.       Fail
+-------------------------------------------------------------------------------
+IMMUTABLE_STRING_32 make @4                                             
+<0000006CB4B38548>  (From READABLE_STRING_32)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+IMMUTABLE_STRING_32 make_filled @2                                      
+<0000006CB4B38548>  (From READABLE_STRING_32)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_byte_code @5                                
+<0000006CB4B34588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_protected @3                                
+<0000006CB4B34588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     report_execute_request @12
+<0000006CB4B34588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     parse @6                                            
+<0000006CB4B34588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     main_loop @5                                        
+<0000006CB4B34588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     start @8                                            
+<0000006CB4B34588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute @16                                         
+<0000006CB4B34588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     root's creation                                     
+<0000006CB4B34588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+]]>
+</exception_trace>
+</call_result>
+report_execute_request end
+</session>
+               Runtime check violated.       Fail
+-------------------------------------------------------------------------------
+IMMUTABLE_STRING_32 make @4                                             
+<00000031A677E848>  (From READABLE_STRING_32)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+IMMUTABLE_STRING_32 make_filled @2                                      
+<00000031A677E848>  (From READABLE_STRING_32)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_byte_code @5                                
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_protected @3                                
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     report_execute_request @12
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     parse @6                                            
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     main_loop @5                                        
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     start @8                                            
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute @16                                         
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     root's creation                                     
+<00000031A66F1588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+]]>
+</exception_trace>
+</call_result>
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+<call_result type='exception'>
+	<meaning value='Precondition violated.'/>
+	<tag value='s_exists'/>
+	<recipient value='execute_byte_code'/>
+	<class value='ITP_INTERPRETER'>
+	<invariant violation on entry='False'>
+	<exception_trace>
+<![CDATA[
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+APPLICATION         item @1                s_exists:                    
+<00000031A67C3E98>  (From EXECUTION_ENVIRONMENT)
+                                           Precondition violated.        Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_byte_code @5                                
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_protected @3                                
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     report_execute_request @12
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     parse @6                                            
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     main_loop @5                                        
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     start @8                                            
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute @16                                         
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     root's creation                                     
+<00000031A66F1588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+]]>
+</exception_trace>
+</call_result>
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+<call_result type='exception'>
+	<meaning value='Operating system signal.'/>
+	<tag value='Segmentation violation'/>
+	<recipient value='c_strlen'/>
+	<class value='C_STRING'>
+	<invariant violation on entry='False'>
+	<exception_trace>
+<![CDATA[
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+C_STRING            c_strlen               Segmentation violation:      
+<00000031A66F2718>                         Operating system signal.      Fail
+-------------------------------------------------------------------------------
+C_STRING            c_strlen                                            
+<00000031A66F2718>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+C_STRING            set_shared_from_pointer @2
+<00000031A66F2718>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+IMMUTABLE_STRING_32 make_from_c @2                                      
+<00000031A68501C8>  (From READABLE_STRING_32)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_byte_code @3                                
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_protected @3                                
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     report_execute_request @12
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------<session>
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+<call_result type='exception'>
+	<meaning value='Operating system signal.'/>
+	<tag value='Segmentation violation'/>
+	<recipient value='c_strlen'/>
+	<class value='C_STRING'>
+	<invariant violation on entry='False'>
+	<exception_trace>
+<![CDATA[
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+C_STRING            c_strlen               Segmentation violation:      
+<0000002F4BCF7718>                         Operating system signal.      Fail
+-------------------------------------------------------------------------------
+C_STRING            c_strlen                                            
+<0000002F4BCF7718>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+C_STRING            set_shared_from_pointer @2
+<0000002F4BCF7718>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+IMMUTABLE_STRING_32 make_from_c @2                                      
+<0000002F4BCF9638>  (From READABLE_STRING_32)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_byte_code @3                                
+<0000002F4BCF6588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_protected @3                                
+<0000002F4BCF6588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     report_execute_request @12
+<0000002F4BCF6588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     parse @6                                            
+<0000002F4BCF6588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     main_loop @5                                        
+<0000002F4BCF6588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     start @8                                            
+<0000002F4BCF6588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute @16                                         
+<0000002F4BCF6588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     root's creation                                     
+<0000002F4BCF6588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+]]>
+</exception_trace>
+</call_result>
+report_execute_request end
+</session>
+------------------------------------
+ITP_INTERPRETER     parse @6                                            
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     main_loop @5                                        
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     start @8                                            
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute @16                                         
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     root's creation                                     
+<00000031A66F1588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+]]>
+</exception_trace>
+</call_result>
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+<call_result type='exception'>
+	<meaning value='Precondition violated.'/>
+	<tag value='key_exists'/>
+	<recipient value='execute_byte_code'/>
+	<class value='ITP_INTERPRETER'>
+	<invariant violation on entry='False'>
+	<exception_trace>
+<![CDATA[
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+APPLICATION         put @1                 key_exists:                  
+<00000031A6738D08>  (From EXECUTION_ENVIRONMENT)
+                                           Precondition violated.        Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_byte_code @6                                
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_protected @3                                
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     report_execute_request @12
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     parse @6                                            
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     main_loop @5                                        
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     start @8                                            
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute @16                                         
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     root's creation                                     
+<00000031A66F1588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+]]>
+</exception_trace>
+</call_result>
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+<call_result type='exception'>
+	<meaning value='Precondition violated.'/>
+	<tag value='s_exists'/>
+	<recipient value='execute_byte_code'/>
+	<class value='ITP_INTERPRETER'>
+	<invariant violation on entry='False'>
+	<exception_trace>
+<![CDATA[
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+APPLICATION         system @1              s_exists:                    
+<00000031A6808FE8>  (From EXECUTION_ENVIRONMENT)
+                                           Precondition violated.        Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_byte_code @4                                
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_protected @3                                
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     report_execute_request @12
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     parse @6                                            
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     main_loop @5                                        
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     start @8                                            
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute @16                                         
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     root's creation                                     
+<00000031A66F1588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+]]>
+</exception_trace>
+</call_result>
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_execute_request start
+<call_result type='exception'>
+	<meaning value='Precondition violated.'/>
+	<tag value='s_exists'/>
+	<recipient value='execute_byte_code'/>
+	<class value='ITP_INTERPRETER'>
+	<invariant violation on entry='False'>
+	<exception_trace>
+<![CDATA[
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+APPLICATION         system @1              s_exists:                    
+<00000031A6738D08>  (From EXECUTION_ENVIRONMENT)
+                                           Precondition violated.        Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_byte_code @4                                
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_protected @3                                
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     report_execute_request @12
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     parse @6                                            
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     main_loop @5                                        
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     start @8                                            
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute @16                                         
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     root's creation                                     
+<00000031A66F1588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+]]>
+</exception_trace>
+</call_result>
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+<call_result type='exception'>
+	<meaning value='Operating system error.'/>
+	<tag value='No such file or directory'/>
+	<recipient value='file_open'/>
+	<class value='FILE'>
+	<invariant violation on entry='False'>
+	<exception_trace>
+<![CDATA[
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+PLAIN_TEXT_FILE     file_open              No such file or directory:   
+<00000031A6983578>  (From FILE)            Operating system error.       Fail
+--------------------------------<session>
+report_execute_request start
+report_execute_request end
+</session>
+-----------------------------------------------
+PLAIN_TEXT_FILE     file_open                                           
+<00000031A6983578>  (From FILE)            Routine failure.              Fail
+-------------------------------------------------------------------------------
+PLAIN_TEXT_FILE     open_read @2                                        
+<00000031A6983578>  (From FILE)            Routine failure.              Fail
+-------------------------------------------------------------------------------
+PLAIN_TEXT_FILE     make_open_read @4                                   
+<00000031A6983578>  (From FILE)            Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @1                                             
+<00000031A6983558>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_byte_code @1                                
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_protected @3                                
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     report_execute_request @12
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     parse @6                                            
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     main_loop @5                                        
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     start @8                                            
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute @16                                         
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     root's creation                                     
+<00000031A66F1588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+]]>
+</exception_trace>
+</call_result>
+report_execute_request end
+report_execute_request start
+<call_result type='exception'>
+	<meaning value='Feature call on void target.'/>
+	<tag value='to_pointer'/>
+	<recipient value='change_working_path'/>
+	<class value='EXECUTION_ENVIRONMENT'>
+	<invariant violation on entry='False'>
+	<exception_trace>
+<![CDATA[
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+APPLICATION         change_working_path @1 to_pointer:                  
+<00000031A6808FE8>  (From EXECUTION_ENVIRONMENT)
+                                           Feature call on void target.  Fail
+-------------------------------------------------------------------------------
+APPLICATION         change_working_path @1                              
+<00000031A6808FE8>  (From EXECUTION_ENVIRONMENT)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_byte_code @4                                
+<00000031A66F1588>                         Routine failure.              Fail
+<session>
+report_execute_request start
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+<call_result type='exception'>
+	<meaning value='Precondition violated.'/>
+	<tag value='s_exists'/>
+	<recipient value='execute_byte_code'/>
+	<class value='ITP_INTERPRETER'>
+	<invariant violation on entry='False'>
+	<exception_trace>
+<![CDATA[
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+APPLICATION         system @1              s_exists:                    
+<0000002DCF05EFC8>  (From EXECUTION_ENVIRONMENT)
+                                           Precondition violated.        Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_byte_code @4                                
+<0000002DCF019588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_protected @3                                
+<0000002DCF019588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     report_execute_request @12
+<0000002DCF019588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     parse @6                                            
+<0000002DCF019588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     main_loop @5                                        
+<0000002DCF019588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     start @8                                            
+<0000002DCF019588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute @16                                         
+<0000002DCF019588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     root's creation                                     
+<0000002DCF019588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+]]>
+</exception_trace>
+</call_result>
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_type_request start
+report_type_request end
+report_execute_request start
+report_execute_request end
+report_execute_request start
+report_execute_request end
+report_execute_request start
+<call_result type='exception'>
+	<meaning value='Feature call on void target.'/>
+	<tag value='to_pointer'/>
+	<recipient value='change_working_path'/>
+	<class value='EXECUTION_ENVIRONMENT'>
+	<invariant violation on entry='False'>
+	<exception_trace>
+<![CDATA[
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+APPLICATION         change_working_path @1 to_pointer:                  
+<0000002DCF05EFC8>  (From EXECUTION_ENVIRONMENT)
+ -------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_protected @3                                
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     report_execute_request @12
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     parse @6                                            
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     main_loop @5                                        
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     start @8                                            
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute @16                                         
+<00000031A66F1588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     root's creation                                     
+<00000031A66F1588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+]]>
+</exception_trace>
+</call_result>
+report_execute_request end
+</session>
+                                          Feature call on void target.  Fail
+-------------------------------------------------------------------------------
+APPLICATION         change_working_path @1                              
+<0000002DCF05EFC8>  (From EXECUTION_ENVIRONMENT)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_byte_code @4                                
+<0000002DCF019588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute_protected @3                                
+<0000002DCF019588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     report_execute_request @12
+<0000002DCF019588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     parse @6                                            
+<0000002DCF019588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     main_loop @5                                        
+<0000002DCF019588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     start @8                                            
+<0000002DCF019588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     execute @16                                         
+<0000002DCF019588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ITP_INTERPRETER     root's creation                                     
+<0000002DCF019588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+]]>
+</exception_trace>
+</call_result>
+report_execute_request end
+</session>
